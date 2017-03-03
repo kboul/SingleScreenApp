@@ -8,45 +8,48 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!-- Define style for subtitle-->
+    <style name="subtitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">Fitness</item>
+        <!--<item name="android:layout_marginLeft">16dp</item>-->
+        <!--<item name="android:paddingBottom">4dp</item>-->
+    </style>
+
     <!-- Define style for location icon-->
     <style name="location">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <!--<item name="android:layout_marginLeft">16dp</item>-->
-        <!--<item name="android:layout_marginBottom">4dp</item>-->
-        <item name="android:textSize">24sp</item>
+        <item name="android:paddingBottom">4dp</item>
         <item name="android:drawableLeft">@drawable/location</item>
-        <item name="android:textColor">#d2d2d2</item>
     </style>
 
+    <!-- Define style for phone icon-->
     <style name="phone">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <!--<item name="android:layout_marginLeft">16dp</item>-->
-        <!--<item name="android:layout_marginBottom">4dp</item>-->
-        <item name="android:textSize">24sp</item>
+        <item name="android:paddingBottom">4dp</item>
         <item name="android:drawableLeft">@drawable/phone</item>
-        <item name="android:textColor">#d2d2d2</item>
     </style>
 
+    <!-- Define style for fax icon-->
     <style name="fax">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <!--<item name="android:layout_marginLeft">16dp</item>-->
-        <!--<item name="android:layout_marginBottom">4dp</item>-->
-        <item name="android:textSize">24sp</item>
+        <item name="android:paddingBottom">4dp</item>
         <item name="android:drawableLeft">@drawable/fax</item>
-        <item name="android:textColor">#d2d2d2</item>
     </style>
 
+    <!-- Define style for mail icon-->
     <style name="mail">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <!--<item name="android:layout_marginLeft">16dp</item>-->
-        <!--<item name="android:layout_marginBottom">4dp</item>-->
-        <item name="android:textSize">24sp</item>
+        <item name="android:paddingBottom">4dp</item>
         <item name="android:drawableLeft">@drawable/mail</item>
-        <item name="android:textColor">#d2d2d2</item>
     </style>
 
 </resources>

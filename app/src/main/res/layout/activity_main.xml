@@ -6,86 +6,93 @@
     android:layout_height="match_parent"
     tools:context="com.example.android.singlescreenapp.MainActivity"
     android:orientation="vertical">
-
+    <!-- Palette: http://www.colorcombos.com/color-schemes/18/ColorCombo18.html-->
     <ImageView
         android:src="@drawable/gym"
-        android:layout_height="250dp"
+        android:layout_height="200dp"
         android:scaleType="fitXY"
         android:layout_width="wrap_content"
         android:id="@+id/imageView" />
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:padding="5dp"
         android:text="GYMtonic"
-        android:fontFamily="sans-serif-thin"
+        android:fontFamily="cursive"
         android:textColor="@android:color/black"
         android:textStyle="bold"
-        android:textSize="34sp"
-        android:padding="5dp"
-        android:id="@+id/textView"
-        android:textAlignment="center" />
+        android:textSize="30sp"
+        android:textAlignment="center"
+        tools:fontFamily="casual"
+        android:background="#CDB99C" />
 
-    <TextView
-        android:id="@+id/location"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="24sp"
-        android:paddingTop="5dp"
+        android:orientation="vertical"
+        android:background="#3399CC"
+        android:paddingTop="10dp"
         android:paddingBottom="5dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
-        android:drawablePadding="10dp"
-        android:text="Vouliagmenis 96, Glyfada"
-        android:fontFamily="sans-serif"
-        android:textColor="#000000"
-        style="@style/location" />
+        android:paddingLeft="20dp" >
+
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:drawablePadding="10dp"
+            android:text="Vouliagmenis 96, Glyfada"
+            android:fontFamily="casual"
+            android:textColor="#000000"
+            style="@style/location" />
+
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:drawablePadding="10dp"
+            android:text="210 30335024"
+            android:fontFamily="casual"
+            android:textColor="#000000"
+            style="@style/phone" />
+
+        <TextView
+            android:id="@+id/fax"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:drawablePadding="10dp"
+            android:text="213 0344530"
+            android:fontFamily="casual"
+            android:textColor="#000000"
+            style="@style/fax" />
+
+        <TextView
+            android:id="@+id/mail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:drawablePadding="10dp"
+            android:text="info@gym-tonic.gr"
+            android:fontFamily="casual"
+            android:textColor="#000000"
+            style="@style/mail" />
+
+    </LinearLayout>
 
     <TextView
-        android:id="@+id/phone"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="24sp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="22sp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
         android:paddingTop="5dp"
-        android:paddingBottom="5dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
-        android:drawablePadding="10dp"
-        android:text="210 30335024"
-        android:fontFamily="sans-serif"
-        android:textColor="#000000"
-        style="@style/phone" />
-
-    <TextView
-        android:id="@+id/fax"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="24sp"
-        android:paddingTop="5dp"
-        android:paddingBottom="5dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
-        android:drawablePadding="10dp"
-        android:text="213 0344530"
-        android:fontFamily="sans-serif"
-        android:textColor="#000000"
-        style="@style/fax" />
-
-    <TextView
-        android:id="@+id/mail"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="24sp"
-        android:paddingTop="5dp"
-        android:paddingBottom="5dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
-        android:drawablePadding="10dp"
-        android:text="info@gym-tonic.gr"
-        android:fontFamily="sans-serif"
-        android:textColor="#000000"
-        style="@style/mail" />
-
-
+        android:text="Fitness, Yoga, Dance, Trampoline, Pilates, Zumba, TRX"
+        android:background="#CDB99C"
+        android:fontFamily="casual"/>
 
 </LinearLayout>
