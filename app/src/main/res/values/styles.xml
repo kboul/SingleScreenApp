@@ -8,12 +8,37 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:background">#CDB99C</item>
+        <item name="android:fontFamily">casual</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="infoArea">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:background">#3399CC</item>
+    </style>
+
     <!-- Define style for location icon-->
     <style name="location">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <!--<item name="android:layout_marginLeft">16dp</item>-->
+        <item name="android:drawablePadding">10dp</item>
         <item name="android:paddingBottom">4dp</item>
+        <item name="android:fontFamily">casual</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#000000</item>
         <item name="android:drawableLeft">@drawable/location</item>
     </style>
 
@@ -21,7 +46,11 @@
     <style name="phone">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawablePadding">10dp</item>
         <item name="android:paddingBottom">4dp</item>
+        <item name="android:fontFamily">casual</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#000000</item>
         <item name="android:drawableLeft">@drawable/phone</item>
     </style>
 
@@ -29,8 +58,11 @@
     <style name="fax">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <!--<item name="android:layout_marginLeft">16dp</item>-->
+        <item name="android:drawablePadding">10dp</item>
         <item name="android:paddingBottom">4dp</item>
+        <item name="android:fontFamily">casual</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#000000</item>
         <item name="android:drawableLeft">@drawable/fax</item>
     </style>
 
@@ -38,8 +70,25 @@
     <style name="mail">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <!--<item name="android:layout_marginLeft">16dp</item>-->
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:fontFamily">casual</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#000000</item>
         <item name="android:drawableLeft">@drawable/mail</item>
     </style>
 
+    <style name="description">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">#CDB99C</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:fontFamily">casual</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <!-- Palette: http://www.colorcombos.com/color-schemes/18/ColorCombo18.html-->
 </resources>

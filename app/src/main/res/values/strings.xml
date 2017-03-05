@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">SingleScreenApp</string>
+    <string name="title">GYMtonic</string>
+    <string name="location">Vouliagmenis 96, Glyfada</string>
+    <string name="phone">210 30335024</string>
+    <string name="fax">213 0344530</string>
+    <string name="mail">info@gym-tonic.gr</string>
+    <string name="description">Fitness, Yoga, Dance, Trampoline, Pilates, Zumba, TRX</string>
 </resources>
