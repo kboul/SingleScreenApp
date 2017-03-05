@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
@@ -7,43 +7,38 @@
     tools:context="com.example.android.singlescreenapp.MainActivity"
     android:orientation="vertical">
 
-    <ImageView
-        android:src="@drawable/gym"
-        android:layout_height="200dp"
-        android:scaleType="fitXY"
-        android:layout_width="wrap_content"
-        android:id="@+id/imageView" />
+    <LinearLayout style="@style/scrollArea">
 
-    <TextView
-        style="@style/title"
-        android:id="@+id/textView"
-        android:text="@string/title" />
-
-    <LinearLayout style="@style/infoArea">
+        <ImageView style="@style/image"/>
 
         <TextView
-            style="@style/location"
-            android:id="@+id/location"
-            android:text="@string/location" />
+            style="@style/title"
+            android:text="@string/title" />
+
+        <LinearLayout style="@style/infoArea">
+
+            <TextView
+                style="@style/location"
+                android:text="@string/location" />
+
+            <TextView
+                android:text="@string/phone"
+                style="@style/phone" />
+
+            <TextView
+                android:text="@string/fax"
+                style="@style/fax" />
+
+            <TextView
+                android:text="@string/mail"
+                style="@style/mail" />
+
+        </LinearLayout>
 
         <TextView
-            android:id="@+id/phone"
-            android:text="@string/phone"
-            style="@style/phone" />
-
-        <TextView
-            android:id="@+id/fax"
-            android:text="@string/fax"
-            style="@style/fax" />
-
-        <TextView
-            android:id="@+id/mail"
-            android:text="@string/mail"
-            style="@style/mail" />
+            android:text="@string/description"
+            style="@style/description"/>
 
     </LinearLayout>
 
-    <TextView
-        android:text="@string/description"
-        style="@style/description"/>
-</LinearLayout>
+</ScrollView>
